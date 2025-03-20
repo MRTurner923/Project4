@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 import numpy as np
 
-df = pd.read_csv('C:/Users/turne/Project4/vehicles_us.csv')
+df = pd.read_csv('vehicles_us.csv')
 
 #Altering data types for use later on in the project
 df['cylinders'] = pd.to_numeric(df['cylinders'])
